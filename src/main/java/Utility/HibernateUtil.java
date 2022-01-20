@@ -1,3 +1,6 @@
+/**
+ * 1972002 - Kevin Juan
+ */
 package Utility;
 
 import org.hibernate.Session;

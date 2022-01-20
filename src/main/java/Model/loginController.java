@@ -1,3 +1,6 @@
+/**
+ * 1972002 - Kevin Juan
+ */
 package Model;
 
 import javafx.event.ActionEvent;

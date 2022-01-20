@@ -1,3 +1,6 @@
+/**
+ * 1972002 - Kevin Juan
+ */
 package Utility;
 
 import java.sql.Connection;
@@ -10,7 +13,7 @@ public class JDBCConnection {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             conn = DriverManager.getConnection(
-                    "jdbc:mysql://localhost:3306/perpus",
+                    "jdbc:mysql://localhost:3306/oopl20211",
                     "root",
                     ""
 
