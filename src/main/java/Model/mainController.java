@@ -118,6 +118,9 @@ public class mainController {
                 colName.setCellValueFactory(new PropertyValueFactory<>("name"));
                 colPhone.setCellValueFactory(new PropertyValueFactory<>("phone"));
                 colBirth.setCellValueFactory(new PropertyValueFactory<>("birthdate"));
+                totalMember.setText(String.valueOf(feMemberEntities.size()));
+                totalPoin.setText(String.valueOf(fePointEntities.size()));
+                totalTransaksi.setText(String.valueOf(feTransactionEntities.size()));
 
                 tablePoint.setItems(fePointEntities);
                 colId.setCellValueFactory(new PropertyValueFactory<>("id"));
